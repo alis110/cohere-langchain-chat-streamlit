@@ -1,7 +1,9 @@
-llm
-venv39
-mnist_test.csv
-mnist_train.csv
-venv311
-__pycache__
-.devcontainer
+venv39/
+venv311/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.env.*
+.DS_Store
