@@ -9,7 +9,7 @@ class LLM_Chat:
         self.llm = ChatCohere(
             model="command-r",
             cohere_api_key=self.api_key,
-            streaming=False 
+            streaming=True 
         )
         self.chat_history = StreamlitChatMessageHistory(key="special_app_key")
 
